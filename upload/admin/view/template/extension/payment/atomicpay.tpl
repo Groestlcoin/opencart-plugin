@@ -72,7 +72,7 @@
                                 <span data-toggle="tooltip" title="This is your unique API Private Key that can be obtained at your AtomicPay Merchant Account under API Integration. Sign up at https://atomicpay.io"><?= $label_payment_api_privateKey; ?></span>
                                 </label>
                                 <div class="col-sm-10">
-                                    <input type="text" name="atomicpay_payment_api_privateKey" id="input-payment-api-privateKey" value="<?= $value_payment_api_privateKey; ?>" class="form-control" />
+                                    <input type="password" name="atomicpay_payment_api_privateKey" id="input-payment-api-privateKey" value="<?= $value_payment_api_privateKey; ?>" class="form-control" />
                                     <?php if (isset($error_payment_api_privateKey)) { ?>
                                     <div class="text-danger"><?= $error_payment_api_privateKey; ?></div>
                                     <?php } ?>
@@ -84,7 +84,7 @@
                                 <span data-toggle="tooltip" title="This is your unique API Public Key that can be obtained at your AtomicPay Merchant Account under API Integration. Sign up at https://atomicpay.io"><?= $label_payment_api_publicKey; ?></span>
                                 </label>
                                 <div class="col-sm-10">
-                                    <input type="text" name="atomicpay_payment_api_publicKey" id="input-payment-api-publicKey" value="<?= $value_payment_api_publicKey; ?>" class="form-control" />
+                                    <input type="password" name="atomicpay_payment_api_publicKey" id="input-payment-api-publicKey" value="<?= $value_payment_api_publicKey; ?>" class="form-control" />
                                     <?php if (isset($error_payment_api_publicKey)) { ?>
                                     <div class="text-danger"><?= $error_payment_api_publicKey; ?></div>
                                     <?php } ?>
