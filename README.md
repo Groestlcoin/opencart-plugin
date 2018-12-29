@@ -37,7 +37,9 @@ Click on the image to view our installation video
 
 ## Authorization Pairing
 Authorization Pairing can be performed using the Settings of AtomicPay Extension.
-Once logged in OpenCart admin panel, you can find the configuration settings under **OpenCart > Settings > Payments > AtomicPay**.
+Once logged in OpenCart admin panel, you can find the configuration settings under **Admin Panel > Extensions > Extensions > Select Payments from Dropdown List > AtomicPay > Click on the Edit button
+
+![Edit Settings](https://github.com/atomicpay/opencart-plugin/blob/master/assets/edit.png)
 
 #### STEP 1
 Login to your [AtomicPay Merchant Account](https://merchant.atomicpay.io/login) and go to [API Integration](https://merchant.atomicpay.io/apiIntegration) page. You will need the following values for next step: `ACCOUNT ID`, `PRIVATE KEY` and `PUBLIC KEY`.
