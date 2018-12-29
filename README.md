@@ -1,4 +1,4 @@
-![AtomicPay](https://github.com/atomicpay/opencart-plugin/blob/master/assets/atomicpay-extension-header.png)
+![AtomicPay](https://github.com/atomicpay/opencart-plugin/blob/master/assets/atomicpay-plugin-header.png)
 ## AtomicPay For OpenCart Extension
 This is an open source extension for OpenCart, allowing merchants to start accepting cryptocurrency payments on their opencart website by simply installing the extension. AtomicPay is a decentralized cryptocurrency payment processor that eliminates the involvement of a third-party payment gateway, allowing merchants to accept payments directly from their customers, in a secured and trustless environment.
 
