@@ -8,10 +8,10 @@ This is an open source extension for OpenCart, allowing merchants to start accep
 ## Server Requirements
 
 * SSL is Highly Recommended
-* [OpenCart](http://docs.woothemes.com/document/server-requirements/) >= 2.x
+* [OpenCart](http://docs.opencart.com/en-gb/requirements/) >= 2.1
 * [PHP5 Curl](http://php.net/manual/en/curl.installation.php) Must be compiled with PHP
-* JSON
 * PHP >= 5.4 (Tested on v7.1)
+* JSON
 
 ## Getting Started
 AtomicPay For OpenCart Extension is designed to be **"Plug-n-Play" installation** without any programming knowledge. Anyone can do it! To set up our extension quickly, please follow the following guide.
