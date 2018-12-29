@@ -22,6 +22,8 @@ AtomicPay For OpenCart Extension is designed to be **"Plug-n-Play" installation*
 ## Installation
 Visit the [Releases](https://github.com/atomicpay/opencart-plugin/releases) page of this repository and download the latest version. Once this is done, you can just login to OpenCart's **Admin Panel > Extensions > Installer**, click on Upload, select the downloaded file and the auto-installation will run. Upon successful installation, you should see the following message: "Success: You have modified extensions!"
 
+![Installer](https://github.com/atomicpay/opencart-plugin/blob/master/assets/installer.png)
+
 Next, go to **Admin Panel > Extensions > Extensions > Select Payments from Dropdown List > Find AtomicPay and click on the green + sign button to install the extension**
 
 ![Click Install](https://github.com/atomicpay/opencart-plugin/blob/master/assets/install.png)
