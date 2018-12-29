@@ -61,7 +61,11 @@ Once authorization is successful, you should see the following message: "Authori
 #### Transaction Speed
 Next, we will need you to select a default **Transaction Speed** value. `HIGH Risk` speed require 1 confirmation, and can be used for digital goods or low-risk items. `MEDIUM Risk` speed require at least 2 confirmations, and should be used for mid-value items. `LOW Risk` speed require at least 6 confirmations (averaging 30 mins, depending on selected cryptocurrency), and should be used for high-value items.
 
-![Transaction Speed](https://github.com/atomicpay/opencart-plugin/blob/master/templates/images/step-4.png)
+#### Notification URL (IPN)
+AtomicPay will send IPNs to this notification URL, along with the invoice data in JSON format. It is default to the callback function within the extension. **Only makes changes to this field, if you know what you are doing**
+
+#### Redirect URL
+Your customers will be redirected back to this URL after successful, expired or failed payment. It is default to the success function within the extension. **Only makes changes to this field, if you know what you are doing**
 
 #### Order Status
 Here you can configure how AtomicPay's IPN (Instant Payment Notifications) trigger the various order states in your OpenCart store. You may leave it as our default values which are common values for majority of stores.
