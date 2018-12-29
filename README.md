@@ -48,8 +48,9 @@ Login to your [AtomicPay Merchant Account](https://merchant.atomicpay.io/login) 
 
 #### STEP 2
 Here you will need to copy and paste the values from STEP 1 into the corresponding fields: `Account ID`, `Private Key` and `Public Key`.
+Next, select **Status > Enabled** and click on the **Save Button** on the top right corner.
 
-![Step 1](https://github.com/atomicpay/opencart-plugin/blob/master/templates/images/step-1.png)
+![Authorization](https://github.com/atomicpay/opencart-plugin/blob/master/assets/authorization.png)
 
 #### STEP 3
 Click on the button **Request Authorization**. The extension will attempt to connect to AtomicPay Server for an authorization.
