@@ -6,8 +6,11 @@ This is an open source extension for OpenCart, allowing merchants to start accep
 We develop things in lightning speed! If you would like to keep up with what we are building or our upcoming cool features, please follow us on AtomicPay Official social media channels:
 * [Official Twitter](https://twitter.com/AtomicPay)
 * [Official Facebook](https://www.facebook.com/atomicpay)
+* [Official Instagram](https://instagram.com/atomicpay.io/)
+* [Official YouTube](https://www.youtube.com/channel/UCm8tPvdxi8PA97ZMIINYjZQ)
 * [Official Reddit](https://www.reddit.com/r/atomicpay)
 * [Official Telegram](https://t.me/atomicpay)
+* And obviously, please follow us on [Official Github](https://github.com/atomicpay)
 
 ## Prerequisites
 * Last Version Tested: OpenCart Version 2.3.0 to 3.0.2
