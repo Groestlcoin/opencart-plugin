@@ -27,7 +27,7 @@ Visit the [Releases](https://github.com/atomicpay/opencart-plugin/releases) page
 ### Youtube Video - Step by Step Installation
 Click on the image to view our installation video
 
-[![Video - Step by Step Installation For OpenCart Extension](https://github.com/atomicpay/opencart-plugin/blob/master/templates/images/video.png)](https://www.youtube.com/watch?v=AO7Hdkdwr5s)
+[![Video - Step by Step Installation For OpenCart Extension](https://github.com/atomicpay/opencart-plugin/blob/master/templates/images/video.png)](https://www.youtube.com/watch?v=davdz9Vci9o)
 
 ## Authorization Pairing
 Authorization Pairing can be performed using the Administrator section of Wordpress.
