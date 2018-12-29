@@ -1,8 +1,8 @@
-![AtomicPay](https://github.com/atomicpay/opencart-plugin/blob/master/assets/atomicpay-plugin-header.png)
-## AtomicPay For OpenCart Plugin
-This is an open source plugin for OpenCart, allowing merchants to start accepting cryptocurrency payments on their opencart website by simply installing the plugin. AtomicPay is a decentralized cryptocurrency payment processor that eliminates the involvement of a third-party payment gateway, allowing merchants to accept payments directly from their customers, in a secured and trustless environment.
+![AtomicPay](https://github.com/atomicpay/opencart-plugin/blob/master/assets/atomicpay-extension-header.png)
+## AtomicPay For OpenCart Extension
+This is an open source extension for OpenCart, allowing merchants to start accepting cryptocurrency payments on their opencart website by simply installing the extension. AtomicPay is a decentralized cryptocurrency payment processor that eliminates the involvement of a third-party payment gateway, allowing merchants to accept payments directly from their customers, in a secured and trustless environment.
 
-AtomicPay for OpenCart Plugin is now listed in Wordpress Plugin Directory. Merchants may install directly from your Wordpress Admin Panel or visit https://wordpress.org/plugins/atomicpay-for-opencart or manually install using the instructions below.
+AtomicPay for OpenCart Extension is now listed in Wordpress Extension Directory. Merchants may install directly from your Wordpress Admin Panel or visit https://wordpress.org/extensions/atomicpay-for-opencart or manually install using the instructions below.
 
 ## Prerequisites
 * Last Version Tested: Wordpress 5.0.1 OpenCart 3.5.2
@@ -16,20 +16,20 @@ AtomicPay for OpenCart Plugin is now listed in Wordpress Plugin Directory. Merch
 * PHP >= 5.4 (Tested on v7.1)
 
 ## Getting Started
-AtomicPay For OpenCart Plugin is designed to be **"Plug-n-Play" installation** without any programming knowledge. Anyone can do it! To set up our plugin quickly, please follow the following guide.
+AtomicPay For OpenCart Extension is designed to be **"Plug-n-Play" installation** without any programming knowledge. Anyone can do it! To set up our extension quickly, please follow the following guide.
 
-- You must have a AtomicPay merchant account and API keys to use this plugin. It's free to [sign-up for a AtomicPay merchant account](https://merchant.atomicpay.io/beta-registration)
+- You must have a AtomicPay merchant account and API keys to use this extension. It's free to [sign-up for a AtomicPay merchant account](https://merchant.atomicpay.io/beta-registration)
 - Once registered, you may retrieve the API keys by login to [AtomicPay Merchant Account](https://merchant.atomicpay.io/login) and go to [API Integration](https://merchant.atomicpay.io/apiIntegration) page. If your key becomes compromised, you may revoke the keys by regenerating new set of keys.
 
 ## Installation
-Visit the [Releases](https://github.com/atomicpay/opencart-plugin/releases) page of this repository and download the latest version. Once this is done, you can just go to Wordpress's **Adminstration Panels > Plugins > Add New > Upload Plugin**, select the downloaded file and click **Install Now**. After the plugin is installed, click on **Activate**.
+Visit the [Releases](https://github.com/atomicpay/opencart-plugin/releases) page of this repository and download the latest version. Once this is done, you can just go to Wordpress's **Adminstration Panels > Extensions > Add New > Upload Extension**, select the downloaded file and click **Install Now**. After the extension is installed, click on **Activate**.
 
-**WARNING:** It is good practice to backup your databases before installing plugins. Please make sure you have created backups.
+**WARNING:** It is good practice to backup your databases before installing extensions. Please make sure you have created backups.
 
 ### Youtube Video - Step by Step Installation
 Click on the image to view our installation video
 
-[![Video - Step by Step Installation For OpenCart Plugin](https://github.com/atomicpay/opencart-plugin/blob/master/templates/images/video.png)](https://www.youtube.com/watch?v=AO7Hdkdwr5s)
+[![Video - Step by Step Installation For OpenCart Extension](https://github.com/atomicpay/opencart-plugin/blob/master/templates/images/video.png)](https://www.youtube.com/watch?v=AO7Hdkdwr5s)
 
 ## Authorization Pairing
 Authorization Pairing can be performed using the Administrator section of Wordpress.
@@ -46,7 +46,7 @@ Here you will need to copy and paste the values from STEP 1 into the correspondi
 ![Step 1](https://github.com/atomicpay/opencart-plugin/blob/master/templates/images/step-1.png)
 
 #### STEP 3
-Click on the button **Request Authorization**. The plugin will attempt to connect to AtomicPay Server for an authorization.
+Click on the button **Request Authorization**. The extension will attempt to connect to AtomicPay Server for an authorization.
 
 ![Step 2](https://github.com/atomicpay/opencart-plugin/blob/master/templates/images/step-2.png)
 
@@ -66,20 +66,20 @@ Here you can configure how AtomicPay's IPN (Instant Payment Notifications) trigg
 
 ![Order States](https://github.com/atomicpay/opencart-plugin/blob/master/templates/images/step-6.png)
 
-Once configurated, click **Save Changes** at the bottom of the page. Congrats your plugin is activated and the Pay with AtomicPay option will be available during your customer checkout process.
+Once configurated, click **Save Changes** at the bottom of the page. Congrats your extension is activated and the Pay with AtomicPay option will be available during your customer checkout process.
 
 ![Save Changes](https://github.com/atomicpay/opencart-plugin/blob/master/templates/images/step-5.png)
 
 ## Usage
-Once activated, your customers will be given the option to pay via AtomicPay which will redirect them to AtomicPay checkout UI to complete the payment. On your OpenCart backend, everything remains the same as how you would use other payment processors such as PayPal, etc. AtomicPay is designed to be an addtional option on top of the existing payment options which you are already offering. There will be no conflicts with other plugins.
+Once activated, your customers will be given the option to pay via AtomicPay which will redirect them to AtomicPay checkout UI to complete the payment. On your OpenCart backend, everything remains the same as how you would use other payment processors such as PayPal, etc. AtomicPay is designed to be an addtional option on top of the existing payment options which you are already offering. There will be no conflicts with other extensions.
 
 ## Troubleshooting and Debugging
-AtomicPay for OpenCart Plugin is designed with an easy-to-understand and detailed debug logging feature. In the event where you experience issues or bugs, please activate the Debug Log option and replicate the issue. Click on View Logs and you will be able to detect any events associated with [Error]. Open an issue with your debug logs by following our [Bug Reporting Guidelines](CONTRIBUTING.md#bugs)
+AtomicPay for OpenCart Extension is designed with an easy-to-understand and detailed debug logging feature. In the event where you experience issues or bugs, please activate the Debug Log option and replicate the issue. Click on View Logs and you will be able to detect any events associated with [Error]. Open an issue with your debug logs by following our [Bug Reporting Guidelines](CONTRIBUTING.md#bugs)
 
 ![Debug Log](https://github.com/atomicpay/opencart-plugin/blob/master/templates/images/step-7.png)
 
 ## Contributions & Developments
-Anyone and everyone is welcome to contribute or develop for this plugin. Please take a moment to review the [guidelines for contributing to AtomicPay for OpenCart Plugin](https://github.com/atomicpay/opencart-plugin/blob/master/CONTRIBUTING.md).
+Anyone and everyone is welcome to contribute or develop for this extension. Please take a moment to review the [guidelines for contributing to AtomicPay for OpenCart Extension](https://github.com/atomicpay/opencart-plugin/blob/master/CONTRIBUTING.md).
 
 - [Bug reports](CONTRIBUTING.md#bugs)
 - [Feature requests](CONTRIBUTING.md#features)
@@ -87,11 +87,11 @@ Anyone and everyone is welcome to contribute or develop for this plugin. Please 
 
 ## License
 AtomicPay is released under the MIT License. Please refer to the [License](https://github.com/atomicpay/opencart-plugin/blob/master/LICENSE) file that accompanies this project for more information including complete terms and conditions.
-![AtomicPay](https://github.com/atomicpay/opencart-plugin/blob/master/assets/atomicpay-plugin-header.png)
-## AtomicPay For OpenCart Plugin
-This is an open source plugin for OpenCart, allowing merchants to start accepting cryptocurrency payments on their opencart website by simply installing the plugin. AtomicPay is a decentralized cryptocurrency payment processor that eliminates the involvement of a third-party payment gateway, allowing merchants to accept payments directly from their customers, in a secured and trustless environment.
+![AtomicPay](https://github.com/atomicpay/opencart-plugin/blob/master/assets/atomicpay-extension-header.png)
+## AtomicPay For OpenCart Extension
+This is an open source extension for OpenCart, allowing merchants to start accepting cryptocurrency payments on their opencart website by simply installing the extension. AtomicPay is a decentralized cryptocurrency payment processor that eliminates the involvement of a third-party payment gateway, allowing merchants to accept payments directly from their customers, in a secured and trustless environment.
 
-AtomicPay for OpenCart Plugin is now listed in Wordpress Plugin Directory. Merchants may install directly from your Wordpress Admin Panel or visit https://wordpress.org/plugins/atomicpay-for-opencart or manually install using the instructions below.
+AtomicPay for OpenCart Extension is now listed in Wordpress Extension Directory. Merchants may install directly from your Wordpress Admin Panel or visit https://wordpress.org/extensions/atomicpay-for-opencart or manually install using the instructions below.
 
 ## Prerequisites
 * Last Version Tested: Wordpress 5.0.1 OpenCart 3.5.2
@@ -105,20 +105,20 @@ AtomicPay for OpenCart Plugin is now listed in Wordpress Plugin Directory. Merch
 * PHP >= 5.4 (Tested on v7.1)
 
 ## Getting Started
-AtomicPay For OpenCart Plugin is designed to be **"Plug-n-Play" installation** without any programming knowledge. Anyone can do it! To set up our plugin quickly, please follow the following guide.
+AtomicPay For OpenCart Extension is designed to be **"Plug-n-Play" installation** without any programming knowledge. Anyone can do it! To set up our extension quickly, please follow the following guide.
 
-- You must have a AtomicPay merchant account and API keys to use this plugin. It's free to [sign-up for a AtomicPay merchant account](https://merchant.atomicpay.io/beta-registration)
+- You must have a AtomicPay merchant account and API keys to use this extension. It's free to [sign-up for a AtomicPay merchant account](https://merchant.atomicpay.io/beta-registration)
 - Once registered, you may retrieve the API keys by login to [AtomicPay Merchant Account](https://merchant.atomicpay.io/login) and go to [API Integration](https://merchant.atomicpay.io/apiIntegration) page. If your key becomes compromised, you may revoke the keys by regenerating new set of keys.
 
 ## Installation
-Visit the [Releases](https://github.com/atomicpay/opencart-plugin/releases) page of this repository and download the latest version. Once this is done, you can just go to Wordpress's **Adminstration Panels > Plugins > Add New > Upload Plugin**, select the downloaded file and click **Install Now**. After the plugin is installed, click on **Activate**.
+Visit the [Releases](https://github.com/atomicpay/opencart-plugin/releases) page of this repository and download the latest version. Once this is done, you can just go to Wordpress's **Adminstration Panels > Extensions > Add New > Upload Extension**, select the downloaded file and click **Install Now**. After the extension is installed, click on **Activate**.
 
-**WARNING:** It is good practice to backup your databases before installing plugins. Please make sure you have created backups.
+**WARNING:** It is good practice to backup your databases before installing extensions. Please make sure you have created backups.
 
 ### Youtube Video - Step by Step Installation
 Click on the image to view our installation video
 
-[![Video - Step by Step Installation For OpenCart Plugin](https://github.com/atomicpay/opencart-plugin/blob/master/templates/images/video.png)](https://www.youtube.com/watch?v=AO7Hdkdwr5s)
+[![Video - Step by Step Installation For OpenCart Extension](https://github.com/atomicpay/opencart-plugin/blob/master/templates/images/video.png)](https://www.youtube.com/watch?v=AO7Hdkdwr5s)
 
 ## Authorization Pairing
 Authorization Pairing can be performed using the Administrator section of Wordpress.
@@ -135,7 +135,7 @@ Here you will need to copy and paste the values from STEP 1 into the correspondi
 ![Step 1](https://github.com/atomicpay/opencart-plugin/blob/master/templates/images/step-1.png)
 
 #### STEP 3
-Click on the button **Request Authorization**. The plugin will attempt to connect to AtomicPay Server for an authorization.
+Click on the button **Request Authorization**. The extension will attempt to connect to AtomicPay Server for an authorization.
 
 ![Step 2](https://github.com/atomicpay/opencart-plugin/blob/master/templates/images/step-2.png)
 
@@ -155,20 +155,20 @@ Here you can configure how AtomicPay's IPN (Instant Payment Notifications) trigg
 
 ![Order States](https://github.com/atomicpay/opencart-plugin/blob/master/templates/images/step-6.png)
 
-Once configurated, click **Save Changes** at the bottom of the page. Congrats your plugin is activated and the Pay with AtomicPay option will be available during your customer checkout process.
+Once configurated, click **Save Changes** at the bottom of the page. Congrats your extension is activated and the Pay with AtomicPay option will be available during your customer checkout process.
 
 ![Save Changes](https://github.com/atomicpay/opencart-plugin/blob/master/templates/images/step-5.png)
 
 ## Usage
-Once activated, your customers will be given the option to pay via AtomicPay which will redirect them to AtomicPay checkout UI to complete the payment. On your OpenCart backend, everything remains the same as how you would use other payment processors such as PayPal, etc. AtomicPay is designed to be an addtional option on top of the existing payment options which you are already offering. There will be no conflicts with other plugins.
+Once activated, your customers will be given the option to pay via AtomicPay which will redirect them to AtomicPay checkout UI to complete the payment. On your OpenCart backend, everything remains the same as how you would use other payment processors such as PayPal, etc. AtomicPay is designed to be an addtional option on top of the existing payment options which you are already offering. There will be no conflicts with other extensions.
 
 ## Troubleshooting and Debugging
-AtomicPay for OpenCart Plugin is designed with an easy-to-understand and detailed debug logging feature. In the event where you experience issues or bugs, please activate the Debug Log option and replicate the issue. Click on View Logs and you will be able to detect any events associated with [Error]. Open an issue with your debug logs by following our [Bug Reporting Guidelines](CONTRIBUTING.md#bugs)
+AtomicPay for OpenCart Extension is designed with an easy-to-understand and detailed debug logging feature. In the event where you experience issues or bugs, please activate the Debug Log option and replicate the issue. Click on View Logs and you will be able to detect any events associated with [Error]. Open an issue with your debug logs by following our [Bug Reporting Guidelines](CONTRIBUTING.md#bugs)
 
 ![Debug Log](https://github.com/atomicpay/opencart-plugin/blob/master/templates/images/step-7.png)
 
 ## Contributions & Developments
-Anyone and everyone is welcome to contribute or develop for this plugin. Please take a moment to review the [guidelines for contributing to AtomicPay for OpenCart Plugin](https://github.com/atomicpay/opencart-plugin/blob/master/CONTRIBUTING.md).
+Anyone and everyone is welcome to contribute or develop for this extension. Please take a moment to review the [guidelines for contributing to AtomicPay for OpenCart Extension](https://github.com/atomicpay/opencart-plugin/blob/master/CONTRIBUTING.md).
 
 - [Bug reports](CONTRIBUTING.md#bugs)
 - [Feature requests](CONTRIBUTING.md#features)
