@@ -37,7 +37,7 @@ Click on the image to view our installation video
 
 ## Authorization Pairing
 Authorization Pairing can be performed using the Settings of AtomicPay Extension.
-Once logged in OpenCart admin panel, you can find the configuration settings under **Admin Panel > Extensions > Extensions > Select Payments from Dropdown List > AtomicPay > Click on the Edit button
+Once logged in OpenCart admin panel, you can find the configuration settings under **Admin Panel > Extensions > Extensions > Select Payments from Dropdown List > AtomicPay > Click on the Edit button**
 
 ![Edit Settings](https://github.com/atomicpay/opencart-plugin/blob/master/assets/edit.png)
 
