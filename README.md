@@ -8,8 +8,9 @@ This is an open source extension for OpenCart, allowing merchants to start accep
 ## Server Requirements
 
 * SSL is Highly Recommended
-* [OpenCart](http://docs.woothemes.com/document/server-requirements/) >= 2.3
+* [OpenCart](http://docs.woothemes.com/document/server-requirements/) >= 2.x
 * [PHP5 Curl](http://php.net/manual/en/curl.installation.php) Must be compiled with PHP
+* JSON
 * PHP >= 5.4 (Tested on v7.1)
 
 ## Getting Started
