@@ -57,6 +57,8 @@ Once authorization is successful, you should see the following message: "Authori
 
 ![Step 3](https://github.com/atomicpay/opencart-plugin/blob/master/assets/success.png)
 
+Congrats your extension is activated and the Pay with AtomicPay option will be available during your customer checkout process.
+
 ## Configuration
 #### Transaction Speed
 Next, we will need you to select a default **Transaction Speed** value. `HIGH Risk` speed require 1 confirmation, and can be used for digital goods or low-risk items. `MEDIUM Risk` speed require at least 2 confirmations, and should be used for mid-value items. `LOW Risk` speed require at least 6 confirmations (averaging 30 mins, depending on selected cryptocurrency), and should be used for high-value items.
@@ -67,14 +69,12 @@ AtomicPay will send IPNs to this notification URL, along with the invoice data i
 #### Redirect URL
 Your customers will be redirected back to this URL after successful, expired or failed payment. It is default to the success function within the extension. **Only makes changes to this field, if you know what you are doing**
 
-#### Order Status
-Here you can configure how AtomicPay's IPN (Instant Payment Notifications) trigger the various order states in your OpenCart store. You may leave it as our default values which are common values for majority of stores.
+#### Order Status Tab
+Here you can configure how AtomicPay's IPN (Instant Payment Notifications) trigger the various order states in your OpenCart store. Click on the blue tip icon to understand more about individual status. You may leave it as our default values which are common values for majority of stores.
 
-![Order States](https://github.com/atomicpay/opencart-plugin/blob/master/templates/images/step-6.png)
+![Order States](https://github.com/atomicpay/opencart-plugin/blob/master/assets/order_status.png)
 
-Once configurated, click **Save Changes** at the bottom of the page. Congrats your extension is activated and the Pay with AtomicPay option will be available during your customer checkout process.
-
-![Save Changes](https://github.com/atomicpay/opencart-plugin/blob/master/templates/images/step-5.png)
+Once configurated, click **Save Button** at the top right corner.
 
 ## Usage
 Once activated, your customers will be given the option to pay via AtomicPay which will redirect them to AtomicPay checkout UI to complete the payment. On your OpenCart backend, everything remains the same as how you would use other payment processors such as PayPal, etc. AtomicPay is designed to be an addtional option on top of the existing payment options which you are already offering. There will be no conflicts with other extensions.
