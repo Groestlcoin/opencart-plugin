@@ -332,13 +332,7 @@ class ControllerExtensionPaymentAtomicpay extends Controller
                 .$contactYourWebAdmin;
         }
 
-        # OpenSSL
-        if (extension_loaded('openssl') === false)
-        {
-            $errors[] = 'The AtomicPay plugin requires the OpenSSL extension for PHP'.$contactYourWebAdmin;
-        }
-
-        # Json
+        # JSON
         if (extension_loaded('json') === false)
         {
             $errors[] = 'The AtomicPay plugin requires the JSON extension for PHP'.$contactYourWebAdmin;
