@@ -2,16 +2,13 @@
 ## AtomicPay For OpenCart Extension
 This is an open source extension for OpenCart, allowing merchants to start accepting cryptocurrency payments on their OpenCart website by simply installing the extension. AtomicPay is a decentralized cryptocurrency payment processor that eliminates the involvement of a third-party payment gateway, allowing merchants to accept payments directly from their customers, in a secured and trustless environment.
 
-AtomicPay for OpenCart Extension is now listed in Wordpress Extension Directory. Merchants may install directly from your Wordpress Admin Panel or visit https://wordpress.org/extensions/atomicpay-for-opencart or manually install using the instructions below.
-
 ## Prerequisites
-* Last Version Tested: Wordpress 5.0.1 OpenCart 3.5.2
+* Last Version Tested: OpenCart Version 2.3.0 to 3.0.2
 
 ## Server Requirements
 
 * SSL is Highly Recommended
-* [Wordpress](https://wordpress.org/about/requirements/) >= 3.9
-* [OpenCart](http://docs.woothemes.com/document/server-requirements/) >= 2.4
+* [OpenCart](http://docs.woothemes.com/document/server-requirements/) >= 2.3
 * [PHP5 Curl](http://php.net/manual/en/curl.installation.php) Must be compiled with PHP
 * PHP >= 5.4 (Tested on v7.1)
 
