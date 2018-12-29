@@ -9,9 +9,9 @@ AtomicPay for OpenCart Extension is now listed in Wordpress Extension Directory.
 
 ## Server Requirements
 
+* SSL is Highly Recommended
 * [Wordpress](https://wordpress.org/about/requirements/) >= 3.9
 * [OpenCart](http://docs.woothemes.com/document/server-requirements/) >= 2.4
-* SSL is Highly Recommended
 * [PHP5 Curl](http://php.net/manual/en/curl.installation.php) Must be compiled with PHP
 * PHP >= 5.4 (Tested on v7.1)
 
