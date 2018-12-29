@@ -1,4 +1,4 @@
-# Contributing to AtomicPay for WooCommerce Plugin
+# Contributing to AtomicPay for OpenCart Extension
 
 Please take a moment to review this document in order to make the contribution
 process easy and effective for everyone involved.
@@ -70,7 +70,7 @@ provide as much detail and context as possible.
 ## Support Requests
 
 If you are having particular issue with your AtomicPay API, please first [search older
-issues](https://github.com/atomicpay/woocommerce-plugin/issues) in order to learn if the issue is already reported. It could have been resolved.
+issues](https://github.com/atomicpay/opencart-plugin/issues) in order to learn if the issue is already reported. It could have been resolved.
 
 When requesting support describe the issue as much in detail as possible. Consider to
 provide the following information:
@@ -82,7 +82,7 @@ provide the following information:
 - Provide error codes and message, if any.
 - If possible, please provide a screenshot of the error / issue.
 
-To open an issue go to [Github Issues](https://github.com/atomicpay/woocommerce-plugin/issues).
+To open an issue go to [Github Issues](https://github.com/atomicpay/opencart-plugin/issues).
 
 <a name="pull-requests"></a>
 
