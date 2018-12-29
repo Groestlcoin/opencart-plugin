@@ -48,19 +48,14 @@ Login to your [AtomicPay Merchant Account](https://merchant.atomicpay.io/login) 
 
 #### STEP 2
 Here you will need to copy and paste the values from STEP 1 into the corresponding fields: `Account ID`, `Private Key` and `Public Key`.
-Next, select **Status > Enabled** and click on the **Save Button** on the top right corner.
+Next, select **Status > Enabled** and click on the **Save Button** on the top right corner. The extension will attempt to connect to AtomicPay Server for an authorization.
 
 ![Authorization](https://github.com/atomicpay/opencart-plugin/blob/master/assets/authorization.png)
 
-#### STEP 3
-Click on the button **Request Authorization**. The extension will attempt to connect to AtomicPay Server for an authorization.
-
-![Step 2](https://github.com/atomicpay/opencart-plugin/blob/master/templates/images/step-2.png)
-
 #### FINAL STEP
-Once authorization is successful, you should see the following dialog popup.
+Once authorization is successful, you should see the following message: "Authorization Successful. AtomicPay plugin settings updated"
 
-![Step 3](https://github.com/atomicpay/opencart-plugin/blob/master/templates/images/step-3.png)
+![Step 3](https://github.com/atomicpay/opencart-plugin/blob/master/assets/success.png)
 
 ## Configuration
 #### Transaction Speed
