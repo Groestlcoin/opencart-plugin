@@ -20,7 +20,9 @@ AtomicPay For OpenCart Extension is designed to be **"Plug-n-Play" installation*
 - Once registered, you may retrieve the API keys by login to [AtomicPay Merchant Account](https://merchant.atomicpay.io/login) and go to [API Integration](https://merchant.atomicpay.io/apiIntegration) page. If your key becomes compromised, you may revoke the keys by regenerating new set of keys.
 
 ## Installation
-Visit the [Releases](https://github.com/atomicpay/opencart-plugin/releases) page of this repository and download the latest version. Once this is done, you can just go to Wordpress's **Adminstration Panels > Extensions > Add New > Upload Extension**, select the downloaded file and click **Install Now**. After the extension is installed, click on **Activate**.
+Visit the [Releases](https://github.com/atomicpay/opencart-plugin/releases) page of this repository and download the latest version. Once this is done, you can just login to OpenCart's **Admin Panel > Extensions > Installer**, click on Upload, select the downloaded file and the auto-installation will run. Upon successful installation, you should see the following message: "Success: You have modified extensions!"
+
+Next, go to **Admin Panel > Extensions > Extensions > Select Payments from Dropdown List > Find AtomicPay and click on the green + sign button to install the extension**
 
 **WARNING:** It is good practice to backup your databases before installing extensions. Please make sure you have created backups.
 
@@ -30,8 +32,8 @@ Click on the image to view our installation video
 [![Video - Step by Step Installation For OpenCart Extension](https://github.com/atomicpay/opencart-plugin/blob/master/assets/video.png)](https://www.youtube.com/watch?v=davdz9Vci9o)
 
 ## Authorization Pairing
-Authorization Pairing can be performed using the Administrator section of Wordpress.
-Once logged in, you can find the configuration settings under **OpenCart > Settings > Payments > AtomicPay**.
+Authorization Pairing can be performed using the Settings of AtomicPay Extension.
+Once logged in OpenCart admin panel, you can find the configuration settings under **OpenCart > Settings > Payments > AtomicPay**.
 
 #### STEP 1
 Login to your [AtomicPay Merchant Account](https://merchant.atomicpay.io/login) and go to [API Integration](https://merchant.atomicpay.io/apiIntegration) page. You will need the following values for next step: `ACCOUNT ID`, `PRIVATE KEY` and `PUBLIC KEY`.
