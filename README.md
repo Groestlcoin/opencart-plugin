@@ -82,9 +82,9 @@ Once activated, your customers will be given the option to pay via AtomicPay whi
 **Note: In order for AtomicPay to generate payment invoices, please remember to setup your cryptocurrency view-only wallets at AtomicPay Merchant Panel.**
 
 ## Troubleshooting and Debugging
-AtomicPay for OpenCart Extension is designed with an easy-to-understand and detailed debug logging feature. In the event where you experience issues or bugs, please activate the Debug Log option and replicate the issue. Click on View Logs and you will be able to detect any events associated with [Error]. Open an issue with your debug logs by following our [Bug Reporting Guidelines](CONTRIBUTING.md#bugs)
+AtomicPay for OpenCart Extension is designed with an easy-to-understand and detailed debug logging feature. In the event where you experience issues or bugs, please enable the Debugging option and replicate the issue. Click on View Logs and you will be able to detect any events associated with [Error]. Open an issue with your debug logs by following our [Bug Reporting Guidelines](CONTRIBUTING.md#bugs)
 
-![Debug Log](https://github.com/atomicpay/opencart-plugin/blob/master/templates/images/step-7.png)
+![Debug Log](https://github.com/atomicpay/opencart-plugin/blob/master/assets/debugging.png)
 
 ## Contributions & Developments
 Anyone and everyone is welcome to contribute or develop for this extension. Please take a moment to review the [guidelines for contributing to AtomicPay for OpenCart Extension](https://github.com/atomicpay/opencart-plugin/blob/master/CONTRIBUTING.md).
@@ -95,4 +95,3 @@ Anyone and everyone is welcome to contribute or develop for this extension. Plea
 
 ## License
 AtomicPay is released under the MIT License. Please refer to the [License](https://github.com/atomicpay/opencart-plugin/blob/master/LICENSE) file that accompanies this project for more information including complete terms and conditions.
-![AtomicPay](https://github.com/atomicpay/opencart-plugin/blob/master/assets/atomicpay-extension-header.png)
